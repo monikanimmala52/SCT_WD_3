@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>🎯 Quiz Game</h1>
+
+    <div id="question">Question comes here</div>
+
+    <div class="options">
+      <button class="option-btn" onclick="checkAnswer(this)">HTML</button>
+      <button class="option-btn" onclick="checkAnswer(this)">Python</button>
+      <button class="option-btn" onclick="checkAnswer(this)">Java</button>
+      <button class="option-btn" onclick="checkAnswer(this)">C++</button>
+    </div>
+
+    <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+
+    <div id="score"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
